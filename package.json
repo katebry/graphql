@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.ts"
+    "start": "nodemon server.ts",
+    "json:server": "json-server --watch db.json"
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +15,7 @@
     "graphql": "^15.8.0",
     "graphql-http": "^1.22.0",
     "graphql-playground-middleware-express": "^1.7.23",
+    "json-server": "^1.0.0-alpha.21",
     "lodash": "^4.17.21",
     "nodemon": "^3.0.3"
   },
