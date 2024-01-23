@@ -1,10 +1,16 @@
 {
   "users": [
-    {"id": "23", "firstName": "Kate", "age": 29},
-    {"id": "31", "firstName": "Scout", "age": 3},
-    {"id": "22", "firstName": "Blah", "age": 29},
-    {"id": "3", "firstName": "Boo", "age": 50},
-    {"id": "34", "firstName": "Bill", "age": 69},
-    {"id": "1", "firstName": "Barbara", "age": 78}
+    {"id": "23", "firstName": "Kate", "age": 29, "companyId": "2"},
+    {"id": "31", "firstName": "Scout", "age": 3, "companyId": "1"},
+    {"id": "22", "firstName": "Blah", "age": 29, "companyId": "1"},
+    {"id": "3", "firstName": "Boo", "age": 50, "companyId": "3"},
+    {"id": "34", "firstName": "Bill", "age": 69, "companyId": "2"},
+    {"id": "1", "firstName": "Barbara", "age": 78, "companyId": "1" }
+  ],
+  "companies": [
+    {"id":  "1", "name":  "Paws", "description":  "dog treats"},
+    {"id":  "2", "name":  "Apple", "description":  "macbooks"},
+    {"id":  "3", "name":  "Google", "description":  "pixels"}
   ]
 }
+
